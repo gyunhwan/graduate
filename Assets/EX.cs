@@ -28,9 +28,10 @@ public class EX : MonoBehaviour
     if (Application.platform == RuntimePlatform.Android)
       if (Input.GetKeyDown(KeyCode.Escape)) Application.Quit();
   }
-  void hideObject()
+  void hideObject(string charName)
   {
-    Target.SetActive(false);
+    GameObject gameobj=GameObject.Find(charName);
+    gameobj.SetActive(false);
   }
   void Walking()
   {
@@ -60,6 +61,6 @@ public class EX : MonoBehaviour
     style.fontSize = 30;
     Debug.Log("싸발적이고");
     if (GUI.Button(new Rect(3, -3, 200, 200), "걷자", style)) Walking();
-    if (GUI.Button(new Rect(10, 10, 200, 200), "싸발적이고 2", style)) hideObject();
+    if (GUI.Button(new Rect(10, 10, 200, 200), "싸발적이고 2", style)) hideObject("Ch_01");
   }
 }
