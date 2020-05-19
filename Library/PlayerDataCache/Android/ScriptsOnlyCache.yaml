@@ -1,7 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - Ch_01
+    - Ch_Main
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.TestRunner.dll:
@@ -43,9 +43,9 @@ ScriptsOnlyBuild:
     - Class: 111
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 12718}
+      Script: {instanceID: 12724}
     - Class: 114
-      Script: {instanceID: 14280}
+      Script: {instanceID: 14282}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 137
@@ -135,6 +135,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: ad8ec0ce49012037999a51ff52457a1d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EX
   - hash:
       serializedVersion: 2
       Hash: 234235b9fb07320d11497e08a726cc56
@@ -398,7 +404,7 @@ ScriptsOnlyBuild:
       Hash: ad8ec0ce49012037999a51ff52457a1d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Ch_01
+    className: Ch_Main
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -507,13 +513,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: ad8ec0ce49012037999a51ff52457a1d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: EX
   platform: 13
   scenePathNames:
   - Assets/Park Assets/Scene/1.unity
-  playerPath: C:/Users/User/Desktop/graduate2/UnityProject/androidBuild
+  playerPath: C:/Users/rbsgh/unityExample/uaal-example-master/UnityProject/androidBuild
